@@ -1,4 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f1f1f1;
+}
+*{
+    box-sizing: border-box;
+}
 
+a{
+    margin-right: 5px;
+}
 
 /* Estilos para dispositivos móviles (por ejemplo, smartphones) */
 @media (max-width: 767px) {
