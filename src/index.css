@@ -11,3 +11,52 @@ body {
 a{
     margin-right: 5px;
 }
+
+/* Estilos para dispositivos móviles (por ejemplo, smartphones) */
+@media (max-width: 767px) {
+  * {
+    display: block;
+    font-size: small;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  *{
+    font-size: medium;
+  }
+}
+
+/* Estilos para computadoras portátiles y PC de escritorio */
+@media (min-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f1f1f1;
+  }
+  *{
+      box-sizing: border-box;
+  }
+  
+  a{
+      margin-right: 5px;
+  }
+}
+
+/* Estilos para PC grandes o monitores de alta resolución */
+@media (min-width: 1200px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f1f1f1;
+  }
+  *{
+      box-sizing: border-box;
+  }
+  
+  a{
+      margin-right: 5px;
+  }
+}
